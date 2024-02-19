@@ -305,7 +305,7 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
-                    href="https://lucasechebeste.github.io/Primeflix/"
+                    href="https://primeflix-eche.netlify.app/"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
@@ -380,6 +380,8 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
+                    href="https://listadetarefas-eche.netlify.app/"
+                    target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
                   >
@@ -454,6 +456,8 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
+                    href="https://netflixclone-eche.netlify.app"
+                    target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
                   >

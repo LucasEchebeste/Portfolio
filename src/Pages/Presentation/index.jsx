@@ -8,7 +8,7 @@ export default function Presentation() {
   return (
     <>
       <div
-        style={{ border: "1px solid transparent" }}
+        style={{ border: "1px solid transparent"}}
         className={darkMode ? "presentationDark" : ""}
       >
         <div className="container d-none d-lg-block">
