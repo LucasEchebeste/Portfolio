@@ -154,7 +154,7 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
-                    href="https://lucasechebeste.github.io/Project-solar-system"
+                    href="https://sistemasolar-eche.netlify.app/"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
