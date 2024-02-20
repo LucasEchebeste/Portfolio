@@ -44,6 +44,7 @@
 }
 
 .cardProjectDark {
+    margin: 25px;
     width: 373px;
     height: 567px;
     flex-shrink: 0;   

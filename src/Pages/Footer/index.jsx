@@ -20,14 +20,19 @@ export default function Footer() {
 
             <div className="col-md-7">
               <div
-                style={{ marginTop: 225, marginLeft: 300 }}
+                style={{ marginTop: 225}}
                 className="d-flex"
               >
-                <div id="contact" className={darkMode ? "celularFooterDark" : "celularFooter"}>
+                <div
+                  id="contact"
+                  className={darkMode ? "celularFooterDark" : "celularFooter"}
+                >
                   (53)99186 9450
                 </div>
-                <div className={darkMode ? "emailFooterDark" : "emailFooter"}>echebesteee.lucas@gmail.com</div>
-                <div style={{ marginLeft: 100 }}>
+                <div className={darkMode ? "emailFooterDark" : "emailFooter"}>
+                  echebesteee.lucas@gmail.com
+                </div>
+                <div>
                   <a href="https://github.com/LucasEchebeste" target="_blank">
                     {darkMode ? (
                       <img style={{ width: 30 }} src={gitHubIconeLight} />
@@ -40,10 +45,7 @@ export default function Footer() {
                     target="_blank"
                   >
                     {darkMode ? (
-                      <img
-                        style={{ marginLeft: 30 }}
-                        src={linkedinIconeLight}
-                      />
+                      <img src={linkedinIconeLight} />
                     ) : (
                       <img style={{ marginLeft: 30 }} src={linkedinIcone} />
                     )}
@@ -96,9 +98,19 @@ export default function Footer() {
               </div>
 
               <div className="col-md-6">
-                <div style={{ marginLeft: 310 }} className={darkMode ? "authorFooterDark" : "authorFooter"}>
+                <div
+                  style={{ marginLeft: 310 }}
+                  className={darkMode ? "authorFooterDark" : "authorFooter"}
+                >
                   Desenvolvido e estilizado por{" "}
-                  <span className={darkMode ? "authorFooterNameDark" : "authorFooterName"}>Lucas Echebeste</span>.
+                  <span
+                    className={
+                      darkMode ? "authorFooterNameDark" : "authorFooterName"
+                    }
+                  >
+                    Lucas Echebeste
+                  </span>
+                  .
                 </div>
               </div>
             </div>
@@ -164,7 +176,6 @@ export default function Footer() {
             >
               Lucas Echebeste
             </span>{" "}
-            
           </div>
 
           <div style={{ marginLeft: 25, marginTop: 13 }} className="d-flex">

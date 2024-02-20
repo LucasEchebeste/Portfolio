@@ -36,7 +36,7 @@ export default function Projects() {
           >
             Coisas que desenvolvi até aqui
           </div>
-          <div style={{ marginTop: 95 }} className="d-flex">
+          <div className="d-flex justify-content-center flex-wrap">
             <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgCocacola})` }}
@@ -90,7 +90,10 @@ export default function Projects() {
                     Ver Página
                   </a>
                   {darkMode ? (
-                    <img style={{marginLeft: 48, width: 30 }} src={gitHubIconeLight} />
+                    <img
+                      style={{ marginLeft: 48, width: 30 }}
+                      src={gitHubIconeLight}
+                    />
                   ) : (
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
@@ -106,10 +109,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgSistemaSolar})` }}
                 className="bgCard"
@@ -181,10 +181,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgUtech})` }}
                 className="bgCard"
@@ -256,232 +253,223 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div style={{ marginTop: 60 }} className="d-flex">
-            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
-              <div
-                style={{ backgroundImage: `url(${bgPrimeFlix})` }}
-                className="bgCard"
-              ></div>
+         
+              <div className={darkMode ? "cardProjectDark" : "cardProject"}>
+                <div
+                  style={{ backgroundImage: `url(${bgPrimeFlix})` }}
+                  className="bgCard"
+                ></div>
 
-              <div className="px-4">
-                <div
-                  style={{ marginTop: 25 }}
-                  className={
-                    darkMode ? "titleCardProjectDark" : "titleCardProject"
-                  }
-                >
-                  PrimeFlix
-                </div>
-                <div
-                  style={{ marginTop: 17 }}
-                  className={
-                    darkMode ? "textCardProjectDark" : "textCardProject"
-                  }
-                >
-                  Projeto no qual consumi uma API de filmes, implementei a
-                  funcionalidade de favoritar e também assistir trailers de
-                  filmes. Foi uma experiência muito agradável desenvolver esse
-                  projeto.
-                </div>
-                <div
-                  style={{ marginTop: 15 }}
-                  className={darkMode ? "techStackCardDark" : "techStackCard"}
-                >
-                  Tecnologias :{" "}
-                  <span
+                <div className="px-4">
+                  <div
+                    style={{ marginTop: 25 }}
                     className={
-                      darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      darkMode ? "titleCardProjectDark" : "titleCardProject"
                     }
                   >
-                    REACT, JS, HTML e CSS.
-                  </span>
-                </div>
-                <div style={{ marginTop: 25 }} className="d-flex">
-                  {darkMode ? (
-                    <img src={linkIconeLight} />
-                  ) : (
-                    <img src={linkIcone} />
-                  )}
-                  <a
-                    href="https://primeflix-eche.netlify.app/"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
-                  >
-                    Ver Página
-                  </a>
-                  {darkMode ? (
-                    <img
-                      style={{ marginLeft: 48, width: 30 }}
-                      src={gitHubIconeLight}
-                    />
-                  ) : (
-                    <img style={{ marginLeft: 48 }} src={gitHubIcone} />
-                  )}
-                  <a
-                    href="https://github.com/LucasEchebeste/Primeflix"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
-                  >
-                    Ver Código
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
-              <div
-                style={{ backgroundImage: `url(${bgToDoList})` }}
-                className="bgCard"
-              ></div>
-
-              <div className="px-4">
-                <div
-                  style={{ marginTop: 25 }}
-                  className={
-                    darkMode ? "titleCardProjectDark" : "titleCardProject"
-                  }
-                >
-                  Lista de Tarefas
-                </div>
-                <div
-                  style={{ marginTop: 17 }}
-                  className={
-                    darkMode ? "textCardProjectDark" : "textCardProject"
-                  }
-                >
-                  Projeto que desenvolvi para listar minhas tarefas diárias e
-                  marcá-las como concluídas após terminá-las. Utilizei o
-                  Firebase como banco de dados para este propósito.
-                </div>
-                <div
-                  style={{ marginTop: 15 }}
-                  className={darkMode ? "techStackCardDark" : "techStackCard"}
-                >
-                  Tecnologias :{" "}
-                  <span
+                    PrimeFlix
+                  </div>
+                  <div
+                    style={{ marginTop: 17 }}
                     className={
-                      darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      darkMode ? "textCardProjectDark" : "textCardProject"
                     }
                   >
-                    REACT, FIREBASE, HTML e CSS.
-                  </span>
-                </div>
-                <div style={{ marginTop: 25 }} className="d-flex">
-                  {darkMode ? (
-                    <img src={linkIconeLight} />
-                  ) : (
-                    <img src={linkIcone} />
-                  )}
-                  <a
-                    href="https://listadetarefas-eche.netlify.app/"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    Projeto no qual consumi uma API de filmes, implementei a
+                    funcionalidade de favoritar e também assistir trailers de
+                    filmes. Foi uma experiência muito agradável desenvolver esse
+                    projeto.
+                  </div>
+                  <div
+                    style={{ marginTop: 15 }}
+                    className={darkMode ? "techStackCardDark" : "techStackCard"}
                   >
-                    Ver Página
-                  </a>
-                  {darkMode ? (
-                    <img
-                      style={{ marginLeft: 48, width: 30 }}
-                      src={gitHubIconeLight}
-                    />
-                  ) : (
-                    <img style={{ marginLeft: 48 }} src={gitHubIcone} />
-                  )}
-                  <a
-                    href="https://github.com/LucasEchebeste/Fireapp"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
-                  >
-                    Ver Código
-                  </a>
+                    Tecnologias :{" "}
+                    <span
+                      className={
+                        darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      }
+                    >
+                      REACT, JS, HTML e CSS.
+                    </span>
+                  </div>
+                  <div style={{ marginTop: 25 }} className="d-flex">
+                    {darkMode ? (
+                      <img src={linkIconeLight} />
+                    ) : (
+                      <img src={linkIcone} />
+                    )}
+                    <a
+                      href="https://primeflix-eche.netlify.app/"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Página
+                    </a>
+                    {darkMode ? (
+                      <img src={gitHubIconeLight} />
+                    ) : (
+                      <img style={{ marginLeft: 48 }} src={gitHubIcone} />
+                    )}
+                    <a
+                      href="https://github.com/LucasEchebeste/Primeflix"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Código
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
-              <div
-                style={{ backgroundImage: `url(${bgNetflix})` }}
-                className="bgCard"
-              ></div>
+              <div className={darkMode ? "cardProjectDark" : "cardProject"}>
+                <div
+                  style={{ backgroundImage: `url(${bgToDoList})` }}
+                  className="bgCard"
+                ></div>
 
-              <div className="px-4">
-                <div
-                  style={{ marginTop: 25 }}
-                  className={
-                    darkMode ? "titleCardProjectDark" : "titleCardProject"
-                  }
-                >
-                  Netflix clone
-                </div>
-                <div
-                  style={{ marginTop: 17 }}
-                  className={
-                    darkMode ? "textCardProjectDark" : "textCardProject"
-                  }
-                >
-                  Resolvi criar este projeto com a intenção de desenvolver uma
-                  aplicação, que fosse o mais próximo possível da página inicial
-                  da Netflix. Foi um projeto complexo, mas o resultado foi
-                  ótimo.
-                </div>
-                <div
-                  style={{ marginTop: 15 }}
-                  className={darkMode ? "techStackCardDark" : "techStackCard"}
-                >
-                  Tecnologias :{" "}
-                  <span
+                <div className="px-4">
+                  <div
+                    style={{ marginTop: 25 }}
                     className={
-                      darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      darkMode ? "titleCardProjectDark" : "titleCardProject"
                     }
                   >
-                    REACT, HTML e CSS.
-                  </span>
-                </div>
-                <div style={{ marginTop: 25 }} className="d-flex">
-                  {darkMode ? (
-                    <img src={linkIconeLight} />
-                  ) : (
-                    <img src={linkIcone} />
-                  )}
-                  <a
-                    href="https://netflixclone-eche.netlify.app"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    Lista de Tarefas
+                  </div>
+                  <div
+                    style={{ marginTop: 17 }}
+                    className={
+                      darkMode ? "textCardProjectDark" : "textCardProject"
+                    }
                   >
-                    Ver Página
-                  </a>
-                  {darkMode ? (
-                    <img
-                      style={{ marginLeft: 48, width: 30 }}
-                      src={gitHubIconeLight}
-                    />
-                  ) : (
-                    <img style={{ marginLeft: 48 }} src={gitHubIcone} />
-                  )}
-                  <a
-                    href="https://github.com/LucasEchebeste/Clone-Netflix"
-                    target="_blank"
-                    style={{ marginLeft: 10 }}
-                    className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    Projeto que desenvolvi para listar minhas tarefas diárias e
+                    marcá-las como concluídas após terminá-las. Utilizei o
+                    Firebase como banco de dados para este propósito.
+                  </div>
+                  <div
+                    style={{ marginTop: 15 }}
+                    className={darkMode ? "techStackCardDark" : "techStackCard"}
                   >
-                    Ver Código
-                  </a>
+                    Tecnologias :{" "}
+                    <span
+                      className={
+                        darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      }
+                    >
+                      REACT, FIREBASE, HTML e CSS.
+                    </span>
+                  </div>
+                  <div style={{ marginTop: 25 }} className="d-flex">
+                    {darkMode ? (
+                      <img src={linkIconeLight} />
+                    ) : (
+                      <img src={linkIcone} />
+                    )}
+                    <a
+                      href="https://listadetarefas-eche.netlify.app/"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Página
+                    </a>
+                    {darkMode ? (
+                      <img
+                        style={{ marginLeft: 48, width: 30 }}
+                        src={gitHubIconeLight}
+                      />
+                    ) : (
+                      <img style={{ marginLeft: 48 }} src={gitHubIcone} />
+                    )}
+                    <a
+                      href="https://github.com/LucasEchebeste/Fireapp"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Código
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
+
+              <div className={darkMode ? "cardProjectDark" : "cardProject"}>
+                <div
+                  style={{ backgroundImage: `url(${bgNetflix})` }}
+                  className="bgCard"
+                ></div>
+
+                <div className="px-4">
+                  <div
+                    style={{ marginTop: 25 }}
+                    className={
+                      darkMode ? "titleCardProjectDark" : "titleCardProject"
+                    }
+                  >
+                    Netflix clone
+                  </div>
+                  <div
+                    style={{ marginTop: 17 }}
+                    className={
+                      darkMode ? "textCardProjectDark" : "textCardProject"
+                    }
+                  >
+                    Resolvi criar este projeto com a intenção de desenvolver uma
+                    aplicação, que fosse o mais próximo possível da página
+                    inicial da Netflix. Foi um projeto complexo, mas o resultado
+                    foi ótimo.
+                  </div>
+                  <div
+                    style={{ marginTop: 15 }}
+                    className={darkMode ? "techStackCardDark" : "techStackCard"}
+                  >
+                    Tecnologias :{" "}
+                    <span
+                      className={
+                        darkMode ? "techStackCardDoisDark" : "techStackCardDois"
+                      }
+                    >
+                      REACT, HTML e CSS.
+                    </span>
+                  </div>
+                  <div style={{ marginTop: 25 }} className="d-flex">
+                    {darkMode ? (
+                      <img src={linkIconeLight} />
+                    ) : (
+                      <img src={linkIcone} />
+                    )}
+                    <a
+                      href="https://netflixclone-eche.netlify.app"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Página
+                    </a>
+                    {darkMode ? (
+                      <img
+                        style={{ marginLeft: 48, width: 30 }}
+                        src={gitHubIconeLight}
+                      />
+                    ) : (
+                      <img style={{ marginLeft: 48 }} src={gitHubIcone} />
+                    )}
+                    <a
+                      href="https://github.com/LucasEchebeste/Clone-Netflix"
+                      target="_blank"
+                      style={{ marginLeft: 10 }}
+                      className={darkMode ? "linksProjectDark" : "linksProjec"}
+                    >
+                      Ver Código
+                    </a>
+                  </div>
+                </div>
+              </div>
+           
           </div>
         </div>
       </div>
