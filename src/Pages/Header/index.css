@@ -21,7 +21,6 @@
 }
 
 .itemMenuHeader {
-    margin-left: 60px;
     cursor: pointer;
     color: #666;
     text-align: center;
@@ -32,13 +31,7 @@
     line-height: 26px; /* 130% */
 }
 
-.itemMenuHeader:hover {
-    background-color: rgb(199, 199, 226);
-    border-radius: 4px;  
-}
-
 .itemMenuHeaderDark {
-    margin-left: 60px;
     cursor: pointer;
     color: var(--light-Content, #A7A7A7);
     text-align: center;

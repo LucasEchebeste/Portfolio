@@ -21,7 +21,7 @@ export default function Projects() {
     <>
       <div
         className={darkMode ? "bgProjectsDark" : ""}
-        style={{ border: "1px solid transparent" }}
+        style={{ border: "1px solid transparent", marginBottom: '-2px' }}
       >
         <div id="projects" className="container d-none d-lg-block">
           <div
@@ -36,7 +36,7 @@ export default function Projects() {
           >
             Coisas que desenvolvi até aqui
           </div>
-          <div style={{ marginTop: 95 }} className="d-flex">
+          <div className="d-flex justify-content-center flex-wrap">
             <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgCocacola})` }}
@@ -90,7 +90,10 @@ export default function Projects() {
                     Ver Página
                   </a>
                   {darkMode ? (
-                    <img style={{marginLeft: 48, width: 30 }} src={gitHubIconeLight} />
+                    <img
+                      style={{ marginLeft: 48, width: 30 }}
+                      src={gitHubIconeLight}
+                    />
                   ) : (
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
@@ -106,10 +109,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgSistemaSolar})` }}
                 className="bgCard"
@@ -181,10 +181,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgUtech})` }}
                 className="bgCard"
@@ -256,9 +253,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div style={{ marginTop: 60 }} className="d-flex">
             <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgPrimeFlix})` }}
@@ -313,10 +308,7 @@ export default function Projects() {
                     Ver Página
                   </a>
                   {darkMode ? (
-                    <img
-                      style={{ marginLeft: 48, width: 30 }}
-                      src={gitHubIconeLight}
-                    />
+                    <img style={{ marginLeft: 48, width: 30 }} src={gitHubIconeLight} />
                   ) : (
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
@@ -332,10 +324,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgToDoList})` }}
                 className="bgCard"
@@ -407,10 +396,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div
-              style={{ marginLeft: 226 }}
-              className={darkMode ? "cardProjectDark" : "cardProject"}
-            >
+            <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
                 style={{ backgroundImage: `url(${bgNetflix})` }}
                 className="bgCard"
@@ -581,6 +567,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://lucasechebeste.github.io/Landing-page-coca-cola/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"
@@ -674,6 +662,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://sistemasolar-eche.netlify.app/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"
@@ -767,6 +757,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://utech-sd.web.app/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"
@@ -861,6 +853,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://primeflix-eche.netlify.app/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"
@@ -954,6 +948,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://listadetarefas-eche.netlify.app/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"
@@ -1047,6 +1043,8 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
+                  href="https://netflixclone-eche.netlify.app/"
+                  target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
                     darkMode ? "linksProjectDarkMobile" : "linksProjectMobile"

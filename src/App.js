@@ -9,11 +9,11 @@ import UserProvider from "./contexts/user";
 function App() {
   return (
     <UserProvider>
-        <Header />
-        <Presentation />
-        <Techstack />
-        <Projects />
-        <Footer />
+      <Header />
+      <Presentation />
+      <Techstack />
+      <Projects />
+      <Footer />
     </UserProvider>
   );
 }

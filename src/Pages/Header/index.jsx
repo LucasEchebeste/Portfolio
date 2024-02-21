@@ -46,71 +46,90 @@ export default function Header() {
                     {darkMode ? "Claro" : "Noite"}
                   </button>
                 </div>
-                <div className="col-md-9 d-flex">
-                  <div style={{ marginLeft: 360 }}>
-                    <span
-                      className={
-                        darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
-                      }
-                      onClick={() => scrollToSection("header")}
+                <div className="col-md-9">
+                  <div>
+                    <div
+                      style={{ marginLeft: 200 }}
+                      className="d-flex justify-content-around"
                     >
-                      Início
-                    </span>
-                    <span
-                      className={
-                        darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
-                      }
-                      onClick={() => scrollToSection("about")}
-                    >
-                      Sobre
-                    </span>
-                    <span
-                      className={
-                        darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
-                      }
-                      onClick={() => scrollToSection("tech")}
-                    >
-                      Tecnologias
-                    </span>
-                    <span
-                      className={
-                        darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
-                      }
-                      onClick={() => scrollToSection("projects")}
-                    >
-                      Projetos
-                    </span>
-                    <span
-                      className={
-                        darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
-                      }
-                      onClick={() => scrollToSection("contact")}
-                    >
-                      Contatos
-                    </span>
-                    <a href="https://github.com/LucasEchebeste" target="_blank">
-                      {darkMode ? (
-                        <img
-                          style={{ marginLeft: 60, width: 30 }}
-                          src={gitHubIconeLight}
-                        />
-                      ) : (
-                        <img style={{ marginLeft: 60 }} src={gitHubIcone} />
-                      )}
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/in/lucas-echebeste-503223208/"
-                      target="_blank"
-                    >
-                      {darkMode ? (
-                        <img
-                          style={{ marginLeft: 30, width: 30 }}
-                          src={linkedinIconeLight}
-                        />
-                      ) : (
-                        <img style={{ marginLeft: 30 }} src={linkedinIcone} />
-                      )}
-                    </a>
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                        onClick={() => scrollToSection("header")}
+                      >
+                        Início
+                      </span>
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                        onClick={() => scrollToSection("about")}
+                      >
+                        Sobre
+                      </span>
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                        onClick={() => scrollToSection("tech")}
+                      >
+                        Tecnologias
+                      </span>
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                        onClick={() => scrollToSection("projects")}
+                      >
+                        Projetos
+                      </span>
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                        onClick={() => scrollToSection("contact")}
+                      >
+                        Contatos
+                      </span>
+
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                      >
+                        <a
+                          href="https://github.com/LucasEchebeste"
+                          target="_blank"
+                        >
+                          {darkMode ? (
+                            <img
+                              style={{ width: "30px" }}
+                              src={gitHubIconeLight}
+                            />
+                          ) : (
+                            <img src={gitHubIcone} />
+                          )}
+                        </a>
+                      </span>
+
+                      <span
+                        className={
+                          darkMode ? "itemMenuHeaderDark" : "itemMenuHeader"
+                        }
+                      >
+                        <a
+                          href="https://www.linkedin.com/in/lucas-echebeste-503223208/"
+                          target="_blank"
+                        >
+                          {darkMode ? (
+                            <img src={linkedinIconeLight} />
+                          ) : (
+                            <img src={linkedinIcone} />
+                          )}
+                        </a>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
