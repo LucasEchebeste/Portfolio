@@ -8,8 +8,8 @@ import gitHubIcone from "../../assets/imagens/githubicone.png";
 import gitHubIconeLight from "../../assets/imagens/githubiconelightpequeno.png";
 
 import bgCocacola from "../../assets/imagens/cocacola-logo.jpeg";
-import bgSistemaSolar from "../../assets/imagens/bgsistemasolar.jpg";
-import bgUtech from "../../assets/imagens/bgu-tech.png";
+import bgJogoDaMemoria from "../../assets/imagens/bgjogodamemoria.png";
+import bgJogoDaVelha from "../../assets/imagens/jogodavelha.png";
 import bgPrimeFlix from "../../assets/imagens/bgprimeflix.jpg";
 import bgToDoList from "../../assets/imagens/bgtodolist.jpg";
 import bgNetflix from "../../assets/imagens/bgnetflix.webp";
@@ -21,7 +21,7 @@ export default function Projects() {
     <>
       <div
         className={darkMode ? "bgProjectsDark" : ""}
-        style={{ border: "1px solid transparent", marginBottom: '-2px' }}
+        style={{ border: "1px solid transparent", marginBottom: "-2px" }}
       >
         <div id="projects" className="container d-none d-lg-block">
           <div
@@ -111,7 +111,7 @@ export default function Projects() {
 
             <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
-                style={{ backgroundImage: `url(${bgSistemaSolar})` }}
+                style={{ backgroundImage: `url(${bgJogoDaMemoria})` }}
                 className="bgCard"
               ></div>
 
@@ -122,7 +122,7 @@ export default function Projects() {
                     darkMode ? "titleCardProjectDark" : "titleCardProject"
                   }
                 >
-                  Sistema Solar
+                  Jogo da Memória
                 </div>
                 <div
                   style={{ marginTop: 17 }}
@@ -130,9 +130,10 @@ export default function Projects() {
                     darkMode ? "textCardProjectDark" : "textCardProject"
                   }
                 >
-                  Desenvolvi este projeto na primeira semana em que comecei a
-                  estudar React. Foi crucial para solidificar a base desta
-                  tecnologia, que é tão importante no desenvolvimento web.
+                  Projeto que criei com a intenção de me desafiar,
+                  explorando novas habilidades e expandindo meu conhecimento.
+                  Foi bastante complexo, mas consegui atingir o resultado
+                  esperado.
                 </div>
                 <div
                   style={{ marginTop: 15 }}
@@ -154,7 +155,7 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
-                    href="https://sistemasolar-eche.netlify.app/"
+                    href="https://jogodamemoria-eche.netlify.app/"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
@@ -170,7 +171,7 @@ export default function Projects() {
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
                   <a
-                    href="https://github.com/LucasEchebeste/Project-solar-system"
+                    href="https://github.com/LucasEchebeste/Jogo-da-memoria"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
@@ -183,7 +184,7 @@ export default function Projects() {
 
             <div className={darkMode ? "cardProjectDark" : "cardProject"}>
               <div
-                style={{ backgroundImage: `url(${bgUtech})` }}
+                style={{ backgroundImage: `url(${bgJogoDaVelha})` }}
                 className="bgCard"
               ></div>
 
@@ -194,7 +195,7 @@ export default function Projects() {
                     darkMode ? "titleCardProjectDark" : "titleCardProject"
                   }
                 >
-                  Página U.tech
+                  Jogo da Velha
                 </div>
                 <div
                   style={{ marginTop: 17 }}
@@ -202,10 +203,9 @@ export default function Projects() {
                     darkMode ? "textCardProjectDark" : "textCardProject"
                   }
                 >
-                  Esta página foi desenvolvida a pedido de um amigo. Foi
-                  desafiador, pois marcou minha primeira experiência
-                  profissional. No entanto, consegui concluí-la com sucesso
-                  dentro do prazo estipulado.
+                  Desenvolvi este jogo da velha para testar meus conhecimentos
+                  com React. Exigiu muito da minha lógica de programação,
+                  solidificando ainda mais esse fundamento tão importante.
                 </div>
                 <div
                   style={{ marginTop: 15 }}
@@ -217,7 +217,7 @@ export default function Projects() {
                       darkMode ? "techStackCardDoisDark" : "techStackCardDois"
                     }
                   >
-                    REACT, BOOTSTRAP, HTML e CSS.
+                    REACT, HTML e CSS.
                   </span>
                 </div>
                 <div style={{ marginTop: 25 }} className="d-flex">
@@ -227,7 +227,7 @@ export default function Projects() {
                     <img src={linkIcone} />
                   )}
                   <a
-                    href="https://utech-sd.web.app/"
+                    href="https://jogodavelha-eche.netlify.app/"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
@@ -243,7 +243,7 @@ export default function Projects() {
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
                   <a
-                    href="https://github.com/zuqueto200/utech"
+                    href="https://github.com/LucasEchebeste/Jogo-da-velha"
                     target="_blank"
                     style={{ marginLeft: 10 }}
                     className={darkMode ? "linksProjectDark" : "linksProjec"}
@@ -308,7 +308,10 @@ export default function Projects() {
                     Ver Página
                   </a>
                   {darkMode ? (
-                    <img style={{ marginLeft: 48, width: 30 }} src={gitHubIconeLight} />
+                    <img
+                      style={{ marginLeft: 48, width: 30 }}
+                      src={gitHubIconeLight}
+                    />
                   ) : (
                     <img style={{ marginLeft: 48 }} src={gitHubIcone} />
                   )}
@@ -613,7 +616,7 @@ export default function Projects() {
               }
             >
               <div
-                style={{ backgroundImage: `url(${bgSistemaSolar})` }}
+                style={{ backgroundImage: `url(${bgJogoDaMemoria})` }}
                 className="bgCardMobile"
               ></div>
               <div
@@ -624,7 +627,7 @@ export default function Projects() {
                     : "titleCardProjectMobile"
                 }
               >
-                Sistema Solar
+                Jogo da Memória
               </div>
               <div
                 style={{ marginTop: 5, marginRight: 15 }}
@@ -634,9 +637,10 @@ export default function Projects() {
                     : "textCardProjectMobile"
                 }
               >
-                Desenvolvi esse projeto incrível na primeira semana em que
-                comecei a estudar React. Foi fundamental para solidificar a base
-                dessa tecnologia, que é tão importante no desenvolvimento web.
+                  Projeto que criei com a intenção de me desafiar,
+                  explorando novas habilidades e expandindo meu conhecimento.
+                  Foi bastante complexo, mas consegui atingir o resultado
+                  esperado.
               </div>
               <div
                 style={{ marginTop: 10 }}
@@ -662,7 +666,7 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
-                  href="https://sistemasolar-eche.netlify.app/"
+                  href="https://jogodamemoria-eche.netlify.app/"
                   target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
@@ -684,7 +688,7 @@ export default function Projects() {
                   />
                 )}
                 <a
-                  href="https://github.com/LucasEchebeste/Project-solar-system"
+                  href="https://github.com/LucasEchebeste/Jogo-da-memoria"
                   target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
@@ -708,7 +712,7 @@ export default function Projects() {
               }
             >
               <div
-                style={{ backgroundImage: `url(${bgUtech})` }}
+                style={{ backgroundImage: `url(${bgJogoDaVelha})` }}
                 className="bgCardMobile"
               ></div>
               <div
@@ -719,7 +723,7 @@ export default function Projects() {
                     : "titleCardProjectMobile"
                 }
               >
-                Página U.tech
+                Jogo da Velha
               </div>
               <div
                 style={{ marginTop: 5, marginRight: 15 }}
@@ -729,9 +733,9 @@ export default function Projects() {
                     : "textCardProjectMobile"
                 }
               >
-                Página desenvolvida a pedido de um amigo. Foi desafiador, minha
-                primeira experiência profissional. No entanto, consegui
-                concluí-la com sucesso dentro do prazo estipulado.
+                Desenvolvi este jogo da velha para testar meus conhecimentos com
+                React. Exigiu muito da minha lógica de programação,
+                solidificando ainda mais esse fundamento tão importante.
               </div>
               <div
                 style={{ marginTop: 10 }}
@@ -747,7 +751,7 @@ export default function Projects() {
                       : "techStackCardDoisMobile"
                   }
                 >
-                  REACT, BOOTSTRAP, HTML e CSS.
+                  REACT, HTML e CSS.
                 </span>
               </div>
               <div style={{ marginTop: 10, marginLeft: 20 }} className="d-flex">
@@ -757,7 +761,7 @@ export default function Projects() {
                   <img width={"20px"} src={linkIcone} />
                 )}
                 <a
-                  href="https://utech-sd.web.app/"
+                  href="https://jogodavelha-eche.netlify.app/"
                   target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
@@ -779,7 +783,7 @@ export default function Projects() {
                   />
                 )}
                 <a
-                  href="https://github.com/LucasEchebeste/utech"
+                  href="https://github.com/LucasEchebeste/Jogo-da-velha"
                   target="_blank"
                   style={{ marginLeft: 10 }}
                   className={
